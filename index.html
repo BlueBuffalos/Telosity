@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telos Dash Board</title>
+    <!-- MATERIAL CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet" />
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="./image/logo.png" />
+                    <h2 cla>TE<span class="danger">LOS</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">dashboard_customize</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">monitor_heart</span>
+                    <h3>OOP Blood Pressure/Pulse</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">emergency</span>
+                    <h3>OOP Glucose</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">emergency</span>
+                    <h3>OOP Sp02</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">mail_outline</span>
+                    <h3>Messages</h3>
+                    <span class="message-count">26</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">inventory</span>
+                    <h3>Low Medicine Alert</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">trending_up</span>
+                    <h3>Analytics Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">add</span>
+                    <h3>Add Product</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!------------------ END OF ASIDE ------------------>
+        <main>
+            <h1>Dashoard</h1>
+
+            <div class="date">
+                <input type="date" />
+            </div>
+
+            <div class="insights">
+                <div class="Outside Parameters ">
+                    <span class="material-icons-sharp">
+                        warning_amber
+                        </span>
+
+                    <div class="middle">
+                        <div class="left">
+                            <h3>OOP Patients</h3>
+                            <h1>44</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                            <div class="number">
+                                <p>29%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!------------ END OF OOP REPORT -------------->
+                <div class="reviews">
+                    <span class="material-icons-sharp">
+                        notifications
+                        </span>
+
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Patients Pending Review</h3>
+                            <h1>106</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                            <div class="number">
+                                <p>68%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!------------ PTS PENDING REVIEW -------------->
+                <div class="medicine">
+                    <span class="material-icons-sharp">
+                        local_pharmacy
+                        </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Low Medicine Alert</h3>
+                            <h1>77 Patients</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                            <div class="number">
+                                <p>44%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!------------ END OF INCOME -------------->
+            </div>
+            <!------------ END OF INSIGHTS -------------->
+
+            <div class="recent-changes">
+                <h2>Negative Trend</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Patient Name</th>
+                            <th>Patient Mrn Number</th>
+                            <th>Patient 7 Day Status</th>
+                            <th>Provider Reports</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Michael Jordan</td>
+                            <td>85631</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>Larry Bird</td>
+                            <td>44897</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>Magic Johnson</td>
+                            <td>31254</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>Charles Barkley</td>
+                            <td>15668</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>Donald Duck</td>
+                            <td>12546</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <a href="#">Show All</a>
+            </div>
+        </main>
+        <!----------------- END OF MAIN -------------------->
+
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+            <span class="material-icons-sharp">menu</span>
+          </button>
+                <div class="theme-toggler">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Mark</b></p>
+                        <small class="text-muted">Admin</small>
+
+                    </div>
+                    <div class="profile-photo">
+                        <img src="./image/old face.jpg">
+                    </div>
+                </div>
+            </div>
+            <!-- END OF TOP -->
+            <div class="recent-updates">
+                <h2>Recent Updates</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="./image/old face 3.jpg">
+                        </div>
+                        <div class="message">
+                            <p>
+                                <b>Ces</b> received his order of Tylenol.
+                            </p>
+                            <small class="text-muted">2 Minutes Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="./image/old1.jpg" />
+                        </div>
+                        <div class="message">
+                            <p>
+                                <b>Tom</b> received his order of bandaids.
+                            </p>
+                            <small class="text-muted">9 Minutes Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="./image/cb1.jpg" />
+                        </div>
+                        <div class="message">
+                            <p>
+                                <b>Julie</b> received his order of antibiotics.
+                            </p>
+                            <small class="text-muted">15 Minutes Ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----------------- END OF RECENT UPDATES -------------------->
+            <div class="patient-analytics">
+                <h2>Analytics Report</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            insights
+                            </span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Patient Satisfaction</h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="success">+39%</h5>
+                        <h3>3849</h3>
+                    </div>
+                </div>
+                <div class="item offline">
+                    <div class="icon">
+                        <span class="material-icons-sharp">local_mall</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Patient Re-hospitalization</h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="danger">-15%</h5>
+                        <h3>77</h3>
+                    </div>
+                </div>
+                <div class="item customers">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            emoji_people
+                            </span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>NEW Patients</h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="success">+25%</h5>
+                        <h3>849</h3>
+                    </div>
+                </div>
+                <div class="item add-product">
+                    <div>
+                        <span class="material-icons-sharp">add</span>
+                        <h3>Add Patient</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./orders.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
